@@ -1,0 +1,20 @@
+using System;
+
+namespace Lessons
+{
+public static class TestLessons
+{
+static void Main(string[] args)
+        {
+            float[] arrays = new float[] { 2, 5, 13, 7, 6, 4 };
+            float arraysSum = 0;
+ 
+            for (int i = 0; i < arrays.Length; i++)
+                arraysSum += arrays[i];
+ 
+            Console.WriteLine("сумма: {0}", arraysSum);
+            Console.WriteLine("среднее арефмитическое: {0}", arraysSum / arrays.Length);
+            Console.ReadLine();
+        }
+}
+}
